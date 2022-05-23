@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shorcut icon" href="assets/images/logoA.png">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="assets/css/Form.css">
+</head>
+
+<body>
+    <main class="container">
+        <section class="card-form">
+            <form action="#">
+                <header>
+                    <h1>Entre em contato</h1>
+
+                    <button class="login-btn"><a href="Index.html">Home</a></button>
+                </header>
+
+                <section class="input-group">
+                    <div class="textfield">
+                        <label for="firstname">Primeiro Nome</label>
+                        <input id="firstname" type="text" name="firstname" placeholder="Digite seu primeiro nome" required>
+                    </div>
+
+                    <div class="textfield">
+                        <label for="lastname">Sobrenome</label>
+                        <input id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome" required>
+                    </div>
+
+                    <div class="textfield">
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
+                    </div>
+
+                    <div class="textfield">
+                        <label for="number">Celular</label>
+                        <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
+                    </div>
+
+                    <div class="textfield mensage">
+                        <label for="mensage">Mensagem</label>
+                        <textarea id="mensage" name="mensage" placeholder="Escreva aqui 🧐..."></textarea>
+                    </div>
+                </section>
+ 
+                <h6>Gênero</h6>
+
+                <section class="gender-group">
+                    <div class="gender">
+                        <input id="female" type="radio" name="gender">
+                        <label for="female">Feminino</label>
+                    </div>
+
+                    <div class="gender">
+                        <input id="male" type="radio" name="gender">
+                        <label for="male">Masculino</label>
+                    </div>
+
+                    <div class="gender">
+                        <input id="others" type="radio" name="gender">
+                        <label for="others">Outros</label>
+                    </div>
+                </section>
+                
+                <button class="continue-btn"><a href="#">Continuar</a></button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
